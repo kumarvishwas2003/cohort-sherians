@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(50,50,50);
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.navbar{
+    background-color: rgb(240,240,240);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 0.1px solid rgba(96, 96, 96,0.3);
+    
+}
+.main{
+    display: flex;
+}
+.left{
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(235,235,235);
+    padding: 10px;
+}
+.right{
+    width: 85%;
+    height: 100%;
+    padding: 20px;
+}
+.right p{
+    margin-bottom: 10px;
+}
+.right h2{
+    margin-bottom: 15px;
+}
+ul{
+    padding-left: 60px;
+    margin-bottom: 10px;
+}
+.head{
+    font-size: 18px;
+    font-weight: 900;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sub-head{
+    padding: 2px;
+    border-bottom: 0.1px solid rgba(96, 96, 96,0.3);
+}
+.image{
+display: flex;
+gap: 30px;
+justify-content: center;
+}
+.img{
+    width: 300px;
+    height: 450px;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    margin-top:10px;
+    margin-bottom: 20px;
+    background-size: contain;
+}
+.coffee1{
+    background-image: url(https://images.unsplash.com/photo-1556742526-795a8eac090e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8Y29mZmVlfGVufDB8MXwwfHx8MA%3D%3D);
+}
+.coffee2{
+background-image: url(https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlfGVufDB8MXwwfHx8MA%3D%3D);
+}
+.coffee3{
+    background-image: url(https://images.unsplash.com/photo-1511920170033-f8396924c348?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29mZmVlfGVufDB8MXwwfHx8MA%3D%3D);
+}
+.footer{
+    /* position: absolute;
+    bottom: 0; */
+    background-color: rgb(50,50,50);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    /* left: 0; */
+    color: white;
+}
+.right .head{
+    margin-bottom: 10px;
+}

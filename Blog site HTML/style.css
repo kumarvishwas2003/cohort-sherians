@@ -1,0 +1,58 @@
+*{
+    background-color: #f5f5f5;
+}
+.nav{
+    max-width: 100%;
+    background-color: #3296d7;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+a{
+    text-decoration: none;
+    background-color: #3296d7;
+    color: white;
+    font-size: 20px;
+}
+.first{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.white{
+    background-color: white;
+}
+.second{
+    background-color: white;
+    margin-top: 20px;
+        padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.footer{
+    text-align: center;
+    background-color: #323232;
+    padding: 3px;
+    color: white;
+    margin-top: 50px;
+}
+.gray{
+    background-color: #323232;
+}
+.image-container{
+    width: 100%;
+    max-width: fit-content;
+    margin-inline: auto;
+}
+.img{
+    background-color: red;
+    width: 500px;
+    height: 400px;
+    background: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzfHx8fHx8fHwx");
+    background-position: center;
+}
+.dotted{
+    border-style: dotted;
+}
+
+
