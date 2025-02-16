@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(240,245,250); */
+  background-color: black;
+}
+
+form {
+  width: 35%;
+  height: 72%;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 100px lightblue;
+  animation: box-shadow 10s infinite both;
+}
+@keyframes box-shadow {
+  0% {
+    box-shadow: 5px 5px 50px lightblue;
+  }
+  25% {
+    box-shadow: 10px -15px 50px #e52020;
+  }
+  50% {
+    box-shadow: -2px 20px 50px #fba518;
+  }
+  75% {
+    box-shadow: 1px -10px 50px #f9cb43;
+  }
+  100% {
+    box-shadow: -5px 5px 50px #a89c29;
+  }
+}
+@keyframes bg {
+  0% {
+    background-color: #e52020;
+  }
+  25% {
+    background-color: #fba518;
+  }
+  50% {
+    background-color: #f9cb43;
+  }
+  75% {
+    background-color: #a89c29;
+  }
+  100% {
+    background-color: #e52020;
+  }
+}
+form input {
+  padding: 8px;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(226, 226, 226);
+}
+input:focus {
+  animation: shake 0.1s both, box-shadow 10s infinite both;
+  animation-iteration-count: 2;
+}
+textarea:focus {
+  animation: shake 0.1s both, box-shadow 10s infinite both;
+  animation-iteration-count: 2;
+}
+@keyframes shake {
+  0% {
+    transform: rotate(1deg);
+  }
+  10% {
+    transform: rotate(-1deg);
+  }
+}
+textarea {
+  padding: 8px;
+  margin-top: 5px;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid rgb(226, 226, 226);
+}
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #0078fa;
+  border-radius: 5px;
+  border: 1px solid rgb(226, 226, 226);
+  color: white;
+  font-size: large;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background-color: white;
+  color: white;
+  transform: scale(1.1);
+  animation: shake 0.1s both, box-shadow 10s infinite both, bg 1s infinite both;
+}
+@keyframes bounce{
+    0{
+        letter-spacing: normal;
+    }
+    20%{
+        letter-spacing: 1px;
+    }
+    25%{
+        letter-spacing: 2px;
+    }
+     30%{
+        letter-spacing: 3px;
+    }
+     35%{
+        letter-spacing: 4px;
+    }
+     40%{
+        letter-spacing: 5px;
+    }
+     45%{
+        letter-spacing: 6px;
+    }
+     50%{
+        letter-spacing: 7px;
+    }
+    55%{
+        letter-spacing: 7px;
+    }
+    60%{
+        letter-spacing: 6px;
+    }
+    65%{
+        letter-spacing: 5px;
+    }
+     70%{
+        letter-spacing: 4px;
+    }
+     75%{
+        letter-spacing: 3px;
+    }
+     80%{
+        letter-spacing: 2px;
+    }
+     85%{
+        letter-spacing: 1px;
+    }
+    100%{
+        letter-spacing: normal;
+    }
+
+}
+.space {
+  margin-top: 20px;
+}
+.title:hover{
+  letter-spacing: normal;
+  animation: bounce 0.5s ease-in-out both;
+}
+.head {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
