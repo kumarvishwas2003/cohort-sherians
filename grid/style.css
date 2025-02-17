@@ -22,21 +22,28 @@ body {
 .down {
   font-weight: bold;
 }
-.container {
+.parent-container{
+  background-color: red;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  column-gap: 30px;
-  row-gap: 10px;
+  justify-content: center;
+  /* align-items: center; */
   height: 100%;
-  /* background-color: aqua; */
-  padding: 60px;
+
+}
+.container{
+  background-color: green;
+   display: flex;
+   padding: 20px;
+  /* justify-content: center; */
+  align-items: center;
   flex-wrap: wrap;
+
+
 }
 .box {
   flex-shrink: 0;
   width: 300px;
   height: 350px;
   border: 2px solid black;
+
 }
