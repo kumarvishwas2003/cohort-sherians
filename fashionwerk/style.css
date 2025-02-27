@@ -114,6 +114,79 @@ main {
   grid-area: d;
 }
 
+.view-4 {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-areas: "a" "b" "c" "d" "e" "f";
+}
+.view-4 .heading {
+  font-size: 44px;
+  text-transform: uppercase;
+}
+.view-4 .view-4-a {
+  grid-area: a;
+}
+.view-4 .view-4-b {
+  grid-area: b;
+}
+.view-4 .view-4-c {
+  grid-area: c;
+}
+.view-4 .view-4-d {
+  grid-area: d;
+}
+.view-4 .view-4-e {
+  grid-area: e;
+}
+.view-4 .view-4-f {
+  grid-area: f;
+}
+.view-4 .head {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.view-4 .content {
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.662745098);
+  font-family: "Roboto Mono", serif;
+}
+.view-4 .box {
+  padding: 10px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.304);
+}
+.view-4 .img-3 {
+  width: 100%;
+  margin-top: 2rem;
+}
+.view-4 .btn {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: start;
+}
+.view-4 .btn-content {
+  font-size: 13px;
+}
+.view-4 .arrow-wrap {
+  padding: 5px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.view-4 .arrow {
+  width: 13px;
+  color: white;
+}
+
 @media (min-width: 1024px) {
   main {
     padding: 4rem;
@@ -152,5 +225,13 @@ main {
     font-family: "Roboto Mono", serif;
     color: rgba(17, 17, 17, 0.3921568627);
     max-width: 75%;
+  }
+  .view-4 {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+    grid-template-areas: "a a f f f f" "b c f f f f" "d e f f f f";
+  }
+  .view-4 .heading {
+    font-size: 96px;
   }
 }/*# sourceMappingURL=style.css.map */
